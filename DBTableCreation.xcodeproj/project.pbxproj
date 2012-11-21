@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D80475165CA95400E5E775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D80474165CA95400E5E775 /* UIKit.framework */; };
+		F5D80477165CA95400E5E775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D80476165CA95400E5E775 /* Foundation.framework */; };
+		F5D80479165CA95400E5E775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D80478165CA95400E5E775 /* CoreGraphics.framework */; };
+		F5D8047F165CA95400E5E775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D8047D165CA95400E5E775 /* InfoPlist.strings */; };
+		F5D80481165CA95400E5E775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D80480165CA95400E5E775 /* main.m */; };
+		F5D80485165CA95400E5E775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D80484165CA95400E5E775 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5D80470165CA95400E5E775 /* DBTableCreation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBTableCreation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D80474165CA95400E5E775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5D80476165CA95400E5E775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5D80478165CA95400E5E775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5D8047C165CA95400E5E775 /* DBTableCreation-Info.plist */ = {isa = PBXFileReference; path = "DBTableCreation-Info.plist"; sourceTree = "<group>"; };
+		F5D8047E165CA95400E5E775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5D80480165CA95400E5E775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5D80482165CA95400E5E775 /* DBTableCreation-Prefix.pch */ = {isa = PBXFileReference; path = "DBTableCreation-Prefix.pch"; sourceTree = "<group>"; };
+		F5D80483165CA95400E5E775 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5D80484165CA95400E5E775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D8046D165CA95400E5E775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D80475165CA95400E5E775 /* UIKit.framework in Frameworks */,
+				F5D80477165CA95400E5E775 /* Foundation.framework in Frameworks */,
+				F5D80479165CA95400E5E775 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D80465165CA95300E5E775 = {
+			isa = PBXGroup;
+			children = (
+				F5D8047A165CA95400E5E775 /* DBTableCreation */,
+				F5D80473165CA95400E5E775 /* Frameworks */,
+				F5D80471165CA95400E5E775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D80471165CA95400E5E775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D80470165CA95400E5E775 /* DBTableCreation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D80473165CA95400E5E775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D80474165CA95400E5E775 /* UIKit.framework */,
+				F5D80476165CA95400E5E775 /* Foundation.framework */,
+				F5D80478165CA95400E5E775 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D8047A165CA95400E5E775 /* DBTableCreation */ = {
+			isa = PBXGroup;
+			children = (
+				F5D80483165CA95400E5E775 /* AppDelegate.h */,
+				F5D80484165CA95400E5E775 /* AppDelegate.m */,
+				F5D8047B165CA95400E5E775 /* Supporting Files */,
+			);
+			path = DBTableCreation;
+			sourceTree = "<group>";
+		};
+		F5D8047B165CA95400E5E775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D8047C165CA95400E5E775 /* DBTableCreation-Info.plist */,
+				F5D8047D165CA95400E5E775 /* InfoPlist.strings */,
+				F5D80480165CA95400E5E775 /* main.m */,
+				F5D80482165CA95400E5E775 /* DBTableCreation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D8046F165CA95400E5E775 /* DBTableCreation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D80488165CA95400E5E775 /* Build configuration list for PBXNativeTarget "DBTableCreation" */;
+			buildPhases = (
+				F5D8046C165CA95400E5E775 /* Sources */,
+				F5D8046D165CA95400E5E775 /* Frameworks */,
+				F5D8046E165CA95400E5E775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBTableCreation;
+			productName = DBTableCreation;
+			productReference = F5D80470165CA95400E5E775 /* DBTableCreation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D80467165CA95300E5E775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F5D8046A165CA95300E5E775 /* Build configuration list for PBXProject "DBTableCreation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5D80465165CA95300E5E775;
+			productRefGroup = F5D80471165CA95400E5E775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D8046F165CA95400E5E775 /* DBTableCreation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D8046E165CA95400E5E775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D8047F165CA95400E5E775 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D8046C165CA95400E5E775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D80481165CA95400E5E775 /* main.m in Sources */,
+				F5D80485165CA95400E5E775 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5D8047D165CA95400E5E775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D8047E165CA95400E5E775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D80486165CA95400E5E775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5D80487165CA95400E5E775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D80489165CA95400E5E775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBTableCreation/DBTableCreation-Prefix.pch";
+				INFOPLIST_FILE = "DBTableCreation/DBTableCreation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5D8048A165CA95400E5E775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBTableCreation/DBTableCreation-Prefix.pch";
+				INFOPLIST_FILE = "DBTableCreation/DBTableCreation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D8046A165CA95300E5E775 /* Build configuration list for PBXProject "DBTableCreation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D80486165CA95400E5E775 /* Debug */,
+				F5D80487165CA95400E5E775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D80488165CA95400E5E775 /* Build configuration list for PBXNativeTarget "DBTableCreation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D80489165CA95400E5E775 /* Debug */,
+				F5D8048A165CA95400E5E775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D80467165CA95300E5E775 /* Project object */;
+}

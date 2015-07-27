@@ -13,6 +13,14 @@
 		F5D8047F165CA95400E5E775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D8047D165CA95400E5E775 /* InfoPlist.strings */; };
 		F5D80481165CA95400E5E775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D80480165CA95400E5E775 /* main.m */; };
 		F5D80485165CA95400E5E775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D80484165CA95400E5E775 /* AppDelegate.m */; };
+		F5D80491165CA9F100E5E775 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D8048F165CA9F100E5E775 /* RootViewController.m */; };
+		F5D80492165CA9F100E5E775 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D80490165CA9F100E5E775 /* RootViewController.xib */; };
+		F5D80495165CAB7300E5E775 /* DataBaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D80494165CAB7300E5E775 /* DataBaseConnection.m */; };
+		F5D8049E165CCB6200E5E775 /* CreateDataBaseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D8049D165CCB6200E5E775 /* CreateDataBaseTable.m */; };
+		F5DEC4071667374500D355B3 /* InsertingData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC4061667374500D355B3 /* InsertingData.m */; };
+		F5DEC41416673DF200D355B3 /* FetchingData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC41316673DF200D355B3 /* FetchingData.m */; };
+		F5DEC41B166740FC00D355B3 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DEC419166740FC00D355B3 /* libcrypto.a */; };
+		F5DEC41C166740FC00D355B3 /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DEC41A166740FC00D355B3 /* libsqlcipher.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,25 @@
 		F5D80474165CA95400E5E775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5D80476165CA95400E5E775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5D80478165CA95400E5E775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F5D8047C165CA95400E5E775 /* DBTableCreation-Info.plist */ = {isa = PBXFileReference; path = "DBTableCreation-Info.plist"; sourceTree = "<group>"; };
+		F5D8047C165CA95400E5E775 /* DBTableCreation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBTableCreation-Info.plist"; sourceTree = "<group>"; };
 		F5D8047E165CA95400E5E775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5D80480165CA95400E5E775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F5D80482165CA95400E5E775 /* DBTableCreation-Prefix.pch */ = {isa = PBXFileReference; path = "DBTableCreation-Prefix.pch"; sourceTree = "<group>"; };
-		F5D80483165CA95400E5E775 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5D80482165CA95400E5E775 /* DBTableCreation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBTableCreation-Prefix.pch"; sourceTree = "<group>"; };
+		F5D80483165CA95400E5E775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5D80484165CA95400E5E775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5D8048E165CA9F100E5E775 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		F5D8048F165CA9F100E5E775 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		F5D80490165CA9F100E5E775 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
+		F5D80493165CAB7300E5E775 /* DataBaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseConnection.h; sourceTree = "<group>"; };
+		F5D80494165CAB7300E5E775 /* DataBaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseConnection.m; sourceTree = "<group>"; };
+		F5D8049C165CCB6200E5E775 /* CreateDataBaseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateDataBaseTable.h; path = ../CreateDataBaseTable.h; sourceTree = "<group>"; };
+		F5D8049D165CCB6200E5E775 /* CreateDataBaseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateDataBaseTable.m; path = ../CreateDataBaseTable.m; sourceTree = "<group>"; };
+		F5DEC4051667374500D355B3 /* InsertingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertingData.h; sourceTree = "<group>"; };
+		F5DEC4061667374500D355B3 /* InsertingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertingData.m; sourceTree = "<group>"; };
+		F5DEC41216673DF200D355B3 /* FetchingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchingData.h; sourceTree = "<group>"; };
+		F5DEC41316673DF200D355B3 /* FetchingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchingData.m; sourceTree = "<group>"; };
+		F5DEC419166740FC00D355B3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		F5DEC41A166740FC00D355B3 /* libsqlcipher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsqlcipher.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +57,8 @@
 				F5D80475165CA95400E5E775 /* UIKit.framework in Frameworks */,
 				F5D80477165CA95400E5E775 /* Foundation.framework in Frameworks */,
 				F5D80479165CA95400E5E775 /* CoreGraphics.framework in Frameworks */,
+				F5DEC41B166740FC00D355B3 /* libcrypto.a in Frameworks */,
+				F5DEC41C166740FC00D355B3 /* libsqlcipher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +68,8 @@
 		F5D80465165CA95300E5E775 = {
 			isa = PBXGroup;
 			children = (
+				F5DEC419166740FC00D355B3 /* libcrypto.a */,
+				F5DEC41A166740FC00D355B3 /* libsqlcipher.a */,
 				F5D8047A165CA95400E5E775 /* DBTableCreation */,
 				F5D80473165CA95400E5E775 /* Frameworks */,
 				F5D80471165CA95400E5E775 /* Products */,
@@ -74,6 +99,17 @@
 			children = (
 				F5D80483165CA95400E5E775 /* AppDelegate.h */,
 				F5D80484165CA95400E5E775 /* AppDelegate.m */,
+				F5D8048E165CA9F100E5E775 /* RootViewController.h */,
+				F5D8048F165CA9F100E5E775 /* RootViewController.m */,
+				F5D80490165CA9F100E5E775 /* RootViewController.xib */,
+				F5D80493165CAB7300E5E775 /* DataBaseConnection.h */,
+				F5D80494165CAB7300E5E775 /* DataBaseConnection.m */,
+				F5D8049C165CCB6200E5E775 /* CreateDataBaseTable.h */,
+				F5D8049D165CCB6200E5E775 /* CreateDataBaseTable.m */,
+				F5DEC4051667374500D355B3 /* InsertingData.h */,
+				F5DEC4061667374500D355B3 /* InsertingData.m */,
+				F5DEC41216673DF200D355B3 /* FetchingData.h */,
+				F5DEC41316673DF200D355B3 /* FetchingData.m */,
 				F5D8047B165CA95400E5E775 /* Supporting Files */,
 			);
 			path = DBTableCreation;
@@ -141,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D8047F165CA95400E5E775 /* InfoPlist.strings in Resources */,
+				F5D80492165CA9F100E5E775 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +190,11 @@
 			files = (
 				F5D80481165CA95400E5E775 /* main.m in Sources */,
 				F5D80485165CA95400E5E775 /* AppDelegate.m in Sources */,
+				F5D80491165CA9F100E5E775 /* RootViewController.m in Sources */,
+				F5D80495165CAB7300E5E775 /* DataBaseConnection.m in Sources */,
+				F5D8049E165CCB6200E5E775 /* CreateDataBaseTable.m in Sources */,
+				F5DEC4071667374500D355B3 /* InsertingData.m in Sources */,
+				F5DEC41416673DF200D355B3 /* FetchingData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +261,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBTableCreation/DBTableCreation-Prefix.pch";
 				INFOPLIST_FILE = "DBTableCreation/DBTableCreation-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -230,6 +276,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBTableCreation/DBTableCreation-Prefix.pch";
 				INFOPLIST_FILE = "DBTableCreation/DBTableCreation-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +304,7 @@
 				F5D8048A165CA95400E5E775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

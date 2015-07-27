@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "RootViewController.h"
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    
+    RootViewController *ObjRoot;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
